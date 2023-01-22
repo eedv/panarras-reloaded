@@ -1,8 +1,8 @@
 ---
-title: "Hogaza 1%-de-masa-madre"
+title: "Hogaza 1% de masa madre"
 
-coverImage: "/assets/blog/Hogaza-1%-de-masa-madre-0.jpg"
-date: "2023-01-14T18:14:30.928Z"
+coverImage: "/assets/blog/Hogaza-1-de-masa-madre-0.jpg"
+date: "Martes, 18 Septiembre 2012 12:38"
 author:
   name: "ChefPanarra"
 ogImage:
@@ -11,9 +11,7 @@ ogImage:
 
 ## Hogaza 1% de masa madre
 
-Escrito por  [ChefPanarra](/web/20190111092846/http://www.panarras.com/index.php/home/recetas/panes-de-masa-madre/itemlist/user/56-chefpanarra) Martes, 18 Septiembre 2012 12:38
-
-[![Hogaza 1% de masa madre](https://web.archive.org/web/20190111092846im_/http://www.panarras.com/media/k2/items/cache/1698b847c2e4fe98c05adcdc9d420590_L.jpg)](/web/20190111092846/http://www.panarras.com/media/k2/items/cache/1698b847c2e4fe98c05adcdc9d420590_XL.jpg "Clic para vista previa de la imagen")
+![Hogaza 1% de masa madre](/assets/blog/Hogaza-1-de-masa-madre-0.jpg)
 
 Esta hogaza es, al mismo tiempo, un ejercicio de práctica panarra, un ritual iniciático y conmemorativo del poder del fermento natural y una experiencia culinaria estremecedora. Inspirándonos en el maravilloso pan Extreme creado por Dan Lepard en la panadería donostiarra veraniega [The Loaf in a Box](https://web.archive.org/web/20190111092846/http://www.theloaf.es/) (puedes leer nuestras aventuras relacionadas con este lugar inspirador en nuestra sección de [reportajes](/web/20190111092846/http://www.panarras.com/index.php/home/reportajes)), os proponemos recrear el método en casa, lo que os proporcionará un mejor conocimiento de las fermentaciones largas y de lo que vuestra masa madre es capaz de hacer, además de una hogaza muy muy especial, de un aroma y sabor profundos, idónea para los apasionados de los panes de masa madre más radicales.
 
