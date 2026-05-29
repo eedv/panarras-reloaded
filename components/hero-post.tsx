@@ -8,9 +8,10 @@ type Props = {
   title: string
   coverImage: string
   date: string
-  excerpt: string
+  excerpt?: string
   author: Author
   slug: string
+  tags?: string[]
 }
 
 const HeroPost = ({
@@ -20,6 +21,7 @@ const HeroPost = ({
   excerpt,
   author,
   slug,
+  tags,
 }: Props) => {
   return (
     <section>
@@ -42,6 +44,18 @@ const HeroPost = ({
           </div>
         </div>
         <div>
+          {tags && tags.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 mb-3">
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="px-2 py-0.5 text-xs rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
           <Avatar name={author.name} picture={author.picture} />
         </div>
