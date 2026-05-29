@@ -24,10 +24,11 @@ export function getTagsFromSlug(slug: string): string[] {
 }
 
 export function getAllTagsFromPosts(
-  posts: { slug: string }[]
+  posts: { slug?: string }[]
 ): string[] {
   const tagSet = new Set<string>()
   for (const post of posts) {
+    if (!post.slug) continue
     const tags = getTagsFromSlug(post.slug)
     tags.forEach((t) => tagSet.add(t))
   }

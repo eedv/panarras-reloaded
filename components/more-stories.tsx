@@ -6,7 +6,7 @@ type Post = {
   date: string;
   coverImage: string;
   author: { name: string; picture: string };
-  excerpt: string;
+  excerpt?: string;
   tags?: string[];
 };
 

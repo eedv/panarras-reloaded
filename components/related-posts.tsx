@@ -1,8 +1,18 @@
 import PostPreview from './post-preview'
-import type Post from '../interfaces/post'
+import type Author from '../interfaces/author'
+
+type RelatedPost = {
+  slug: string
+  title: string
+  coverImage: string
+  date: string
+  excerpt: string
+  tags?: string[]
+  author?: Author
+}
 
 type Props = {
-  posts: Post[]
+  posts: RelatedPost[]
 }
 
 const RelatedPosts = ({ posts }: Props) => {
@@ -18,7 +28,7 @@ const RelatedPosts = ({ posts }: Props) => {
             title={post.title}
             coverImage={post.coverImage}
             date={post.date}
-            author={post.author}
+            author={post.author || { name: '', picture: '' }}
             slug={post.slug}
             excerpt={post.excerpt}
             tags={post.tags}
